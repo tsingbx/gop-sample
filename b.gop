@@ -3,9 +3,8 @@ package main
 import (
 	"fmt"
 	c "gop-sample/cpkag"
-	ss "gop-sample/cpkag/b"
-	"gop-sample/cpkag/b/ss"
-	ab "gop-sample/cpkag/b/ss"
+	ab "gop-sample/cpkag/b"
+	ss "gop-sample/cpkag/b/ss"
 	k "gop-sample/cpkag/k"
 	g "gop-sample/gpkag"
 )
