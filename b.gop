@@ -1,0 +1,33 @@
+package main
+
+import (
+	"fmt"
+	c "gop-sample/cpkag"
+	ss "gop-sample/cpkag/b"
+	"gop-sample/cpkag/b/ss"
+	ab "gop-sample/cpkag/b/ss"
+	k "gop-sample/cpkag/k"
+	g "gop-sample/gpkag"
+)
+
+bb := 3
+Ab()
+ab.Ab()
+ab.Ac()
+ss.Ab()
+fmt.Println(bb)
+k.K()
+k.Kk()
+k.Ab()
+
+a()
+c.P()
+c.Gg()
+g.G()
+fmt.Println("b")
+fmt.Println("b")
+fmt.Println("b")
+fmt.Println("b")
+fmt.Println("b")
+fmt.Println("b")
+fmt.Println("b")
