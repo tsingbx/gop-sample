@@ -7,6 +7,7 @@ import (
 	ss "gop-sample/cpkag/b/ss"
 	k "gop-sample/cpkag/k"
 	myutils "gop-sample/cpkag/utils"
+	mymyutils "gop-sample/cpkag/utils/utils"
 	g "gop-sample/gpkag"
 	rootutils "gop-sample/utils"
 
@@ -25,6 +26,7 @@ k.Kk()
 k.Ab()
 remote.TestCsgo()
 myutils.TestCsgo()
+mymyutils.TestCsgo()
 rootutils.TestCsgo()
 
 a()
