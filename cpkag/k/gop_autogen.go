@@ -1,6 +1,8 @@
 package k
 
 import "fmt"
+
+const _ = true
 //line cpkag/k/k.gop:3:1
 func Kk() {
 //line cpkag/k/k.gop:4:1
