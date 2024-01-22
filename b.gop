@@ -6,7 +6,11 @@ import (
 	ab "gop-sample/cpkag/b"
 	ss "gop-sample/cpkag/b/ss"
 	k "gop-sample/cpkag/k"
+	myutils "gop-sample/cpkag/utils"
 	g "gop-sample/gpkag"
+	rootutils "gop-sample/utils"
+
+	remote "github.com/liuscraft/testgomod/utils"
 )
 
 bb := 3
@@ -14,10 +18,14 @@ Ab()
 ab.Ab()
 ab.Ac()
 ss.Ab()
+ss.Bs()
 fmt.Println(bb)
 k.K()
 k.Kk()
 k.Ab()
+remote.TestCsgo()
+myutils.TestCsgo()
+rootutils.TestCsgo()
 
 a()
 c.P()
